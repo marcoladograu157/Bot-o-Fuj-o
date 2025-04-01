@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: rgb(158, 155, 156);
+}
+
+.painel {
+    width: 500px;
+    height: 500px;
+    background: rgb(195, 188, 233);
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+button {
+    height: 50px;
+    width: 120px;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out; 
+}
+
+button:hover {
+    opacity: 0.8; 
+}
+
+#sim {
+    position: absolute;
+    background: rgb(43, 31, 204);
+    color: white;
+    left: 60px;
+    bottom: 60px;
+    font-weight: bold;
+}
+
+#nao {
+    position: absolute;
+    right: 60px;
+    bottom: 60px;
+    color: blueviolet;
+    background-color: black;
+    font-weight: bold;
+}
+
+.painel h1 {
+    margin-top: 20px;
+}
+
+.painel h2 {
+    margin-top: 10px;
+    font-size: 18px;
+}
